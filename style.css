@@ -1,0 +1,31 @@
+ *{
+    margin:0;
+    padding:0;
+ }
+ .main{
+    background-image: url("/netflix.jpg");
+    height:80vh;
+    position:relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:maxwidth(1280px,100vw);
+}
+.main.box{
+    height:80vh;
+    width:100%;
+    position:absolute;
+    top:0;
+    background-color: black;
+
+}
+nav{
+    margin:auto;
+    max-width: 80vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav button{
+    z-index:10;
+    position:relative;
+}
